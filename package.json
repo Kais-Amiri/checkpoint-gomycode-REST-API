@@ -1,0 +1,21 @@
+{
+  "name": "contact_list",
+  "version": "1.0.0",
+  "description": "project for gomycode",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently  \"  nodemon server  \"   \" cd client && npm start   \"  "
+  },
+  "author": "kais",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "dotenv": "^10.0.0"
+  }
+}
